@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T11:26:47.037Z" agent="5.0 (X11)" version="14.4.4" etag="fezu_cYwtdr6PQQNO_AK" type="github"><diagram id="oUgF3yeKeZZqTsGcdaw2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T11:39:26.709Z" agent="5.0 (X11)" etag="hidgwDBfprv-HXBTLVks" version="14.4.4" type="github">
+  <diagram id="oUgF3yeKeZZqTsGcdaw2" name="Page-1">
+    <mxGraphModel dx="1422" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-1" target="0nJ1YE4bozQOGgwDE2sm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-1" value="Jenkins job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-2" target="0nJ1YE4bozQOGgwDE2sm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-2" value="Powershell/Bash" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-4" target="0nJ1YE4bozQOGgwDE2sm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-4" value="Connect to Azure" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-6" target="0nJ1YE4bozQOGgwDE2sm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-6" value="Get VM status for a Resource Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-8" target="0nJ1YE4bozQOGgwDE2sm-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-8" target="0nJ1YE4bozQOGgwDE2sm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-8" value="&lt;div&gt;Scenario 1&lt;/div&gt;&lt;div&gt;Stop VM1&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-12" value="&lt;div&gt;Resource Group has 2 VMs &lt;br&gt;&lt;/div&gt;&lt;div&gt;in started status- VM1 &amp;amp; VM2&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-13" value="Get VM status" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-15" target="0nJ1YE4bozQOGgwDE2sm-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-15" target="0nJ1YE4bozQOGgwDE2sm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-15" value="&lt;div&gt;Scenario 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stop VM2&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-19" value="Get VM status" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-21" target="0nJ1YE4bozQOGgwDE2sm-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-21" target="0nJ1YE4bozQOGgwDE2sm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-21" value="&lt;div&gt;Scenario 3&lt;/div&gt;&lt;div&gt;Start VM1&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-25" value="Get VM status" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-27" target="0nJ1YE4bozQOGgwDE2sm-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-27" target="0nJ1YE4bozQOGgwDE2sm-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-27" value="&lt;div&gt;Scenario 4&lt;br&gt;&lt;/div&gt;&lt;div&gt;Start VM2; Stop VM1&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-28" value="Get VM status" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-30" target="0nJ1YE4bozQOGgwDE2sm-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-30" target="0nJ1YE4bozQOGgwDE2sm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-30" value="&lt;div&gt;Scenario 5&lt;br&gt;&lt;/div&gt;&lt;div&gt;Start VM1; Stop VM2&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-31" value="Get VM status" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nJ1YE4bozQOGgwDE2sm-35" target="0nJ1YE4bozQOGgwDE2sm-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-35" value="&lt;div&gt;Scenario 6&lt;br&gt;&lt;/div&gt;&lt;div&gt;Start VM2&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0nJ1YE4bozQOGgwDE2sm-36" value="Get VM status" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
