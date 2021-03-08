@@ -10,7 +10,7 @@ pipeline {
                     if(isUnix()){
                            print "Unix"
                     }else{
-                        print "Not Unix"
+                        print "Not Unixs"
                     }
                 }
             }
