@@ -8,9 +8,9 @@ pipeline {
                 echo 'Hello World!!!s'
                 script{
                     if(isUnix()){
-                           print "Unix"
+                           print "Unixsssssssssssssssssssssssssssss"
                     }else{
-                        print "Not Unix"
+                        print "Not Unixssssssssssssss"
                     }
                 }
             }
