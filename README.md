@@ -18,6 +18,9 @@ Prerequisites: </br>
    
    c. Install Azure PowerShell module </br>
       `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`  </br>
-      `Install-Module -Name AzureRM -AllowClobber`
+      `Install-Module -Name AzureRM -AllowClobber -Force`
+   
+
+wiwi
 
 
