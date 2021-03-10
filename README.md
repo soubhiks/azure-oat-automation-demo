@@ -21,6 +21,19 @@ Prerequisites: </br>
       `Install-Module -Name AzureRM -AllowClobber -Force`
    
 
-wiwi
+
+------------
+
+Below are the activities that needs to triggered from Jenkins,
+
+ 
+
+Verify the list of services and processes running in a VM
+
+Shutdown/restart the VM
+
+Verify the list of services and processes
+
+Generate a report with list of services before and after the restart.
 
 
